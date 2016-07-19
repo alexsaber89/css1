@@ -13,23 +13,38 @@ body {
 }*/
 
 .title {
+  text-align: center;
   border-color: green;
+  font-size: 50px;
 }
 
 .image {
   border-color: blue;
 }
 
+.img-box {
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  border: 2px dashed lime;
+  margin-right: 2%;
+}
+
 .text-1 {
   border-color: red;
+  float: left;
+  width: 45%;
 }
 
 .text-2 {
   border-color: orange;
+  float: right;
+  width: 45%;
 }
 
 .footer {
   border-color: aqua;
+  clear: both;
 }
 
 .top-nav {
