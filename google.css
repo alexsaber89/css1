@@ -1,3 +1,37 @@
-body {
-  background-color: blue;
+nav li {
+  float: right;
+  color: grey;
+  margin-right: 2%;
+  list-style-type: none;
+}
+footer li {
+  list-style-type: none;
+}
+input {
+  width: 50%;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: grey;
+}
+.image_position {
+  text-align: center;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search {
+  text-align: center;
+  padding-top: 30px;
+  margin: auto;
+  width: 50%;
+}
+.buttons {
+  text-align: center;
+  padding-top: 20px;
 }
